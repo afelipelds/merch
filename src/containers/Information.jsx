@@ -18,7 +18,6 @@ const Information = () => {
       apto: formData.get('apto'),
       country: formData.get('country'),
       city: formData.get('city'),
-      state: formData.get('state'),
       postal_code: formData.get('postal_code'),
       phone: formData.get('phone'),
     };
@@ -66,8 +65,8 @@ const Information = () => {
             />
             <input 
               type="text" 
-              name="state" 
-              id="state" 
+              name="city" 
+              id="city" 
               placeholder="Ciudad" 
             />
             <input
